@@ -1,0 +1,208 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: "Trebuche MS", Helvetica, sans-serif;
+	background: #fff url("imagens/fundo.png") repeat-x top left;
+}
+ul{
+list-style: none;
+}
+label{
+	display: block;
+	cursor: pointer;
+}
+input{
+	font-size: 0.9em;
+	background-color: #fff;
+	padding: 5px;
+	margin-bottom: 5px;
+	width: 130px;
+}
+input.submit{
+	width: 80px;
+	color: #fff;
+	background-color: #b10333;
+	border: 2px solid #870529;
+}
+a{
+	text-decoration:none;
+}
+/*-----------------Cabeçalho----------------*/
+h2{
+	font-size: 1.1em;
+	background: #294c71;
+	color: #fff;
+	text-align: center;
+	padding: 5px;
+}
+h3{
+	text-transform: uppercase;
+	display: inline;
+	font-size: 0.8em;
+	padding: 3px;
+	background: #b10333;
+	color: #fff;
+}
+.entrevista h3{
+	background: #de003e;
+}
+/*-----------------Imagens----------------*/
+img.imagem-principal{
+	width: 98%;
+	border: 3px solid #dfdfdf;
+}
+/*-----------------Lita de Noticias----------------*/
+.lista-noticias li{
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+	font-size: 0.8em;
+}
+.lista-noticias li a img{
+	 float: left;
+	 margin: 0 5px 0 0;
+}
+.lista-noticias li a p{
+	margin: 10px;
+}
+.lista-noticias li a h3{
+	color: #3e7ab9;
+	background: #fff;
+}
+.lista-noticias li:hover{
+	background: #eee;
+	cursor: pointer;
+}
+.lista-noticias li a:link, a:visited{
+	color: #b10333;
+}
+.lista-noticias li a:link, a:visited{
+	color: #e50040;
+}
+
+
+/*-----------------PAINEL PARTE SUPERIOR----------------*/
+#painel-cima-menu{
+width: 750px;
+margin: 10px auto;
+}
+#painel-cima-menu a{
+	color: #fff;
+	display: block;
+	padding: 0.5em 1.5em;
+	line-height: 2.1em;
+	background:url("imagens/divisor.png") no-repeat left center;
+}
+#painel-cima-menu ul .primeiro a{
+	background:none;
+}
+#painel-cima-menu a:hover{
+	color: #69001d;
+	background-color: #de003e;
+}
+#painel-cima-menu ul{
+	background-color: #b10333;
+	display: inline;
+	float: left;
+}
+#painel-cima-menu li{
+	float: left;
+}
+
+.topo{
+	height: 200px;
+	background: url("imagens/detalhe-topo.png") no-repeat right;
+}
+.logo{
+	margin-bottom: 40px;
+	width: 152px;
+	height: 66px;
+	background:url("imagens/logo.png") no-repeat center;
+	text-indent: -3000px;
+}
+
+/*--------------LINKAR página atual--------------*/
+body.home #painel-cima-menu a#home,
+body.brasil #painel-cima-menu a#brasil,
+body.internacional #painel-cima-menu a#internacional,
+body.economia #painel-cima-menu a#economia,
+body.saude #painel-cima-menu a#saude,
+body.ciencias #painel-cima-menu a#ciencias,
+body.fatos #painel-cima-menu a#fatos
+{
+color: #fff;
+background: #de003e;
+cursor: text;
+}
+
+/*-----------------CONTEÚDO----------------*/
+#conteudo{
+	margin-top: 30px;
+	margin-left: 290px;
+	width: 750px;
+}
+/*-----------------PAINEL PRIMARIO----------------*/
+#primario{
+	width: 270px;
+	float: left;
+	margin: 0 0 20px 195px;
+}
+#duas-colunas #primario{
+	width: 555px;
+}
+#uma-coluna #primario{
+	width: 750px;
+	margin: 0 0 20px 0px;
+}
+
+/*-----------------PAINEL SECUNDÁRIO----------------*/
+#secundario{
+	width: 270px;
+	float: left;
+	margin: 0 0 20px 15px;
+}
+/*-----------------PAINEL LATERAL----------------*/
+#lateral{
+	width: 180px;
+	float: left;
+	margin: 0 0 20px -750px;
+}
+/*-----------------FORMATAÇAO PAINEL LATERAL----------------*/
+#lateral ul a{
+	font-size: 0.8em;
+	padding: 3px;
+	display: block;
+	line-height: 30px;
+	color: black;
+	border-bottom: 1px solid #f3f3f3;
+}
+#lateral a:hover{
+	color: #a1a1a1;
+	background: #f9f9f9 url("imagens/marcador.png") no-repeat left center;
+	padding-left: 20px;
+	font-size: 0.7em;
+}
+/*-----------------CAIXA----------------*/
+.caixa{
+	margin: 10px 0px;
+	padding: 5px;
+	background: #f3f3f3 url("imagens/fundo-caixa.png");
+}
+.caixa-conteudo{
+	background:#fff;
+	padding: 5px;
+	margin-top: 5px;
+}
+
+
+/*-----------------RODAPÉ----------------*/
+#container-rodape{
+background:#294c71;
+padding: 20px;
+}
+#rodape{
+	width: 750px;
+	margin: 0 auto;
+	color: #fff;
+}
